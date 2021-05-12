@@ -31,7 +31,12 @@ class _EightBallState extends State<EightBall> {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: Image.asset('images/ball1.png'),
+      child: TextButton(
+        onPressed: () {
+          print('I got clicked');
+        },
+        child: Image.asset('images/ball1.png'),
+      ),
     );
   }
 }
