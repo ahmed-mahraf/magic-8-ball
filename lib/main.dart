@@ -13,11 +13,11 @@ class MainPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.blueGrey,
         appBar: AppBar(
           title: Text('Ask Me Anything'),
           centerTitle: true,
-          backgroundColor: Colors.blue[900],
+          backgroundColor: Colors.blueGrey[900],
         ),
         body: EightBall());
   }
